@@ -46,16 +46,4 @@ class AppColors {
 
   static const Color border = Color(0xFFE0E0E0);
   static const Color shadow = Color(0x1F000000);
-
-  // =========================================================================
-  // --- TAMBAHAN: WARNA SPESIFIK UNTUK HALAMAN SAVED WORKSHOPS (FAVORIT) ---
-  // =========================================================================
-  static const Color favoriteRed = Color(0xFFD93025); // Merah hati aktif
-  static const Color tagBg = Color(0xFFE8F0FE);       // Background pil tag (biru muda)
-  static const Color tagText = Color(0xFF3C4043);     // Teks di dalam pil tag
-  static const Color ratingBg = Color(0xFFF8F9FA);    // Background rating bintang
-  
-  // Alias tambahan agar kodingan halaman favorit kemarin langsung sinkron
-  static const Color greyText = textSecLight;
-  static const Color lightGrey = bgLight;
 }
